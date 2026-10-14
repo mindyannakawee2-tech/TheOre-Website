@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#202220">
+  <meta name="description" content="TheORE is a top-down single-player RPG in development. Follow progress and get the preview builds.">
+  <title>TheORE | Official Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#home" aria-label="TheORE home"><span class="logo-block" aria-hidden="true">▣</span> TheORE</a>
+      <button class="menu-button" id="menu-button" aria-expanded="false" aria-controls="navigation">☰ <span>Menu</span></button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#news">News</a><a href="#preview">Preview</a><a href="#download" class="nav-download">Download</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">THEORE · IN DEVELOPMENT</p>
+          <h1>A new world<br>to explore.</h1>
+          <p>TheORE is a single-player, top-down RPG. The adventure is still being made — follow development and try the previews when they're available.</p>
+          <a href="#download" class="button button-green">GET THE PREVIEW <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-scene" role="img" aria-label="Simple block-style illustration of trees, a path and a mountain">
+          <div class="sun"></div><div class="mountain mountain-back"></div><div class="mountain mountain-front"></div><div class="ground"></div><div class="path"></div>
+          <div class="tree tree-one"><i></i></div><div class="tree tree-two"><i></i></div><div class="tree tree-three"><i></i></div>
+          <div class="pixel-player"><i></i></div>
+          <div class="scene-label">GAMEPLAY ART COMING SOON</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading"><p class="eyebrow">THE GAME</p><h2>What is TheORE?</h2></div>
+      <div class="about-grid">
+        <div><p>TheORE is a top-down RPG built with Java. Explore an original world as development continues.</p><p>This is an early project. Features may change between previews.</p></div>
+        <div class="facts"><div><strong>Genre</strong><span>Top-down RPG</span></div><div><strong>Players</strong><span>Single-player</span></div><div><strong>Availability</strong><span>Free preview builds</span></div><div><strong>Source</strong><span>Closed-source game</span></div></div>
+      </div>
+    </section>
+
+    <section class="section news-section" id="news">
+      <div class="section-heading"><p class="eyebrow">LATEST NEWS</p><h2>Development updates</h2></div>
+      <article class="news-card"><div class="news-top"><span class="tag">GITHUB RELEASES</span><span id="news-date"></span></div><h3 id="news-title">Checking for updates…</h3><p id="news-description">Latest release information comes from the official TheORE game releases repository.</p><a id="news-link" href="https://github.com/mindyannakawee2-tech/TheOreReleases/releases" target="_blank" rel="noopener noreferrer">View all releases →</a></article>
+    </section>
+
+    <section class="section preview-section" id="preview">
+      <div class="section-heading"><p class="eyebrow">THE PREVIEW</p><h2>Made one step at a time.</h2></div>
+      <div class="preview-grid"><div class="shot-placeholder"><span>SCREENSHOT 01</span><p>Game screenshots will appear here.</p></div><div class="preview-copy"><h3>Follow the journey</h3><p>The preview editions let you see TheORE as it develops. Expect changes, experiments, and new features over time.</p><p>Updates and download files are published on GitHub.</p></div></div>
+    </section>
+
+    <section class="download-section" id="download"><div class="download-inner"><div><p class="eyebrow">PLAY THEORE</p><h2>Ready to try the preview?</h2><p>Choose a release on GitHub. You can download the game directly or use the optional launcher for version selection.</p></div><div class="download-actions"><a class="button button-green" href="https://github.com/mindyannakawee2-tech/TheOreReleases/releases" target="_blank" rel="noopener noreferrer">GAME RELEASES ↗</a><a class="button button-outline" href="https://github.com/mindyannakawee2-tech/TheORELauncher" target="_blank" rel="noopener noreferrer">LAUNCHER SOURCE ↗</a></div></div></section>
+  </main>
+  <footer class="footer"><div><strong>TheORE</strong><small>© <span id="year"></span> TheORE. All rights reserved.</small></div><p>TheORE is a closed-source project. Please don't redistribute modified game builds as official releases.</p><a href="https://github.com/mindyannakawee2-tech/TheOreReleases" target="_blank" rel="noopener noreferrer">GitHub ↗</a></footer>
+</body>
+</html>
